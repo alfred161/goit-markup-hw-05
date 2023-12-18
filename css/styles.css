@@ -337,6 +337,10 @@ img {
   align-items: center;
 }
 
+.nav .link {
+  position: relative;
+}
+
 .header-container {
   display: flex;
 }
