@@ -392,10 +392,10 @@ img {
   padding-bottom: 120px;
 }
 
-.section-portfolio > div {
+/* .section-portfolio > div {
   display: flex;
   align-items: baseline;
-}
+} */
 
 .values-icon {
   display: flex;
