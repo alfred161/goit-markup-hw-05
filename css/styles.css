@@ -43,6 +43,7 @@ nav li a:first-child {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  /* color: var(--grey); */
   padding: 24px 0;
 }
 
@@ -109,11 +110,10 @@ nav li a:first-child:focus {
   min-width: 169px;
   height: 56px;
   border: none;
-  background-color: var(--light-blue);
   border-radius: 4px;
   cursor: pointer;
   margin: 48px auto 0;
-  background-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:focus,
@@ -341,6 +341,7 @@ img {
 .nav a {
   position: relative;
   color: var(--light-blue-focus);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav a::after {
@@ -351,7 +352,6 @@ img {
   height: 4px;
   background-color: var(--light-blue-focus);
   border-radius: 2px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-container {
@@ -404,6 +404,7 @@ img {
 .social-media-item-container {
   /* display: flex; */
   justify-content: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-five {
@@ -437,6 +438,7 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--lighter-grey);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-link:hover,
@@ -502,6 +504,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-brand {
