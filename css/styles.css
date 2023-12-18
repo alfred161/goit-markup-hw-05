@@ -547,7 +547,6 @@ img {
   left: 50%;
   width: 408px;
   min-height: 584px;
-  /* margin-top: 80px; */
   border-radius: 4px;
   background: var(--dairy);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
@@ -557,18 +556,18 @@ img {
 }
 
 .close-button {
-  /*
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 24px 24px 0 auto;
-  background-color: var(--cornflower);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  cursor: pointer; */
   position: absolute;
   top: 24px;
   right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white-a);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
   padding: 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
