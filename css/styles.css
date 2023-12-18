@@ -66,6 +66,7 @@ nav li a:first-child:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-grey);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address a:hover,
@@ -337,8 +338,20 @@ img {
   align-items: center;
 }
 
-.nav .link {
+.nav a {
   position: relative;
+  color: var(--light-blue-focus);
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--light-blue-focus);
+  border-radius: 2px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-container {
