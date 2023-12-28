@@ -34,32 +34,30 @@ body {
   padding: 0;
 }
 
-.nav li a:first-child {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--light-blue-focus); /*this should be --grey*/
-  padding: 24px 0;
-}
-
-.nav li a:first-child:hover,
-.nav li a:first-child:focus {
-  color: var(--light-blue-focus);
-}
-
 .nav {
   display: flex;
   align-items: center;
 }
 
-.nav a {
+.nav li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--grey);
+  padding: 24px 0;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav a::after {
-  content: "";
+.nav li a.active,
+.nav li a.active:hover,
+.nav li a.active:focus {
+  color: var(--light-blue-focus);
+}
+
+.nav li a.active::after {
+  content: '';
   position: absolute;
   left: 0;
   bottom: -1px;
