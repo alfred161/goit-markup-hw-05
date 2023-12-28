@@ -57,11 +57,12 @@ body {
 }
 
 .nav li a.active::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: 4px;
   height: 4px;
+  width: 100%;
   background-color: var(--light-blue-focus);
   border-radius: 2px;
 }
